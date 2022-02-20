@@ -6,35 +6,35 @@ const titlePink = document.querySelector(".title-pink");
 const mapAttribute = document.querySelector("#map");
 
 titleBlue.addEventListener("mouseover", ()=>{
-    mapAttribute.src = 'http://www.sarabianchi.it/code-images/mappa-interattiva/img/map-blue.png';
+    mapAttribute.src = './images/map-blue.png';
 });
 
 titleBlue.addEventListener("mouseout", ()=>{
-    mapAttribute.src = 'http://www.sarabianchi.it/code-images/mappa-interattiva/img/map-original.png';
+    mapAttribute.src =  './images/map-original.png';
 });
 
 titleRed.addEventListener("mouseover", ()=>{
-    mapAttribute.src = 'http://www.sarabianchi.it/code-images/mappa-interattiva/img/map-red.png';
+    mapAttribute.src = './images/map-red.png';
 });
 titleRed.addEventListener("mouseout", ()=>{
-    mapAttribute.src = 'http://www.sarabianchi.it/code-images/mappa-interattiva/img/map-original.png';
+    mapAttribute.src = './images/map-original.png';
 });
 titleGreen.addEventListener("mouseover", ()=>{
-    mapAttribute.src = 'http://www.sarabianchi.it/code-images/mappa-interattiva/img/map-green.png';
+    mapAttribute.src = './images/map-green.png';
 });
 titleGreen.addEventListener("mouseout", ()=>{
-    mapAttribute.src = 'http://www.sarabianchi.it/code-images/mappa-interattiva/img/map-original.png';
+    mapAttribute.src = './images/map-original.png';
 });
 titleYellow.addEventListener("mouseover", ()=>{
-    mapAttribute.src = 'http://www.sarabianchi.it/code-images/mappa-interattiva/img/map-yellow.png';
+    mapAttribute.src = './images/map-yellow.png';
 });
 titleYellow.addEventListener("mouseout", ()=>{
-    mapAttribute.src = 'http://www.sarabianchi.it/code-images/mappa-interattiva/img/map-original.png';
+    mapAttribute.src = './images/map-original.png';
 });
 titlePink.addEventListener("mouseover", ()=>{
-    mapAttribute.src = 'http://www.sarabianchi.it/code-images/mappa-interattiva/img/map-pink.png';
+    mapAttribute.src = './images/map-pink.png';
 });
 titlePink.addEventListener("mouseout", ()=>{
-    mapAttribute.src = 'http://www.sarabianchi.it/code-images/mappa-interattiva/img/map-original.png';
+    mapAttribute.src = './images/map-original.png';
 });
 
